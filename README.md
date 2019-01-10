@@ -5,7 +5,7 @@ Sample script to execute Engine API - GetAllInfos and store the Jason response i
 - It is necessary to install, node.js and node.js components(ws, path, fs) to run this script.
 - .Local Certificates folder needs to be expoerted from Qlik Sense Central Node
 - wss://QlikServer1:4747/app/ in the code is an example, please change the hostname which fits your environment
-- UserDirectory and UserId in the code is an example, please change it according to fit your environment
+- UserDirectory and UserId in the code is an example, please change it accordingly to fit your environment
 
 # Requirement
 -  Node.js
