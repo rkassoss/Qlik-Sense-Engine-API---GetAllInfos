@@ -1,8 +1,26 @@
-// Qlik Sense Engine API - GetAllInfos example script version 1.0 Author: Yoichi H
+//MIT License
+//Copyright (c) 2019 Yoichi Hirotake
+//Permission is hereby granted, free of charge, to any person obtaining a copy
+//of this software and associated documentation files (the "Software"), to deal
+//in the Software without restriction, including without limitation the rights
+//to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+//copies of the Software, and to permit persons to whom the Software is
+//furnished to do so, subject to the following conditions:
+//The above copyright notice and this permission notice shall be included in all
+//copies or substantial portions of the Software.
+//THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+//IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+//FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+//AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+//LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+//OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE`
+//SOFTWARE.
+
+//EngineGetAllInfos v1.0
 // It is necessary to install, node.js and node.js components(ws, path, fs) to run this script.
-// .Local Certificates folder needs to be expoerted from Qlik Sense Central Node
-//  wss://QlikServer1:4747/app/ is an example, please change the hostname which fits your environment
-//  UserDirectory and UserId is an example, please change it according to fit your environment
+//.Local Certificates folder needs to be expoerted from Qlik Sense Central Node
+//wss://QlikServer1:4747/app/ is an example, please change the hostname which fits your environment
+//UserDirectory and UserId is an example, please change it according to fit your environment
 
 const WebSocket = require('ws');
 const path = require('path');
